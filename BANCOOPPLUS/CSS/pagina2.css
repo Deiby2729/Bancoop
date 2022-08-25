@@ -1,0 +1,134 @@
+.continer{
+	margin: 0; padding: 0;
+	margin-top:5em;
+}
+
+nav {
+	width: 100%;
+	margin-left: 0;
+	font-size: 20px;
+	margin-top: 10px;
+	background-color: rgb(193, 207, 193);
+	border-radius: 20px;
+}
+
+nav ul{
+    list-style: none;
+	margin: 0;
+	padding: 20px;
+	overflow: hidden;
+	text-align: center;
+}
+
+nav li{
+    display: inline-block;
+}
+nav li a{
+	padding: 5px 50px;
+}
+
+header img {
+	width: 1330px;
+	height: 250px;
+	border-radius: 50px;
+}
+
+aside {
+	width: 27%;
+	height: 700px;
+	float: left;
+	margin-bottom: 1000px;
+	margin-top: 200px;
+}
+section {
+	margin-top: 15px;
+	width: 70%;
+	float: right;
+}
+footer {
+	margin-top: -500px;
+}
+#forma {
+		width: 70%;
+		border: 3px rgb(0, 0, 0) solid;
+		text-align: justify;
+		height: 220px;
+		text-align: center;
+		
+}
+
+article {
+	width: 40%;
+	float: left;
+	border: 3px rgb(0, 0, 0) solid;
+	text-align: justify;
+	height: 420px;
+	margin-right: 20px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	box-shadow: 30px 20px 15px slategrey;
+	border-radius: 60px;
+	background-color:white;
+}
+
+article h1{
+text-align: center;
+}
+
+article img{
+	height: 150px;
+}
+article p{
+padding-right: 20px;
+padding-left: 20px;
+padding-bottom: 20px;
+}
+
+.contenedor-principal{
+margin-left: 1rem;
+border-left: 1px solid red;
+text-align: center;
+border-radius: 60px;
+background-color:white
+}
+
+.container-form{
+padding-top: 2rem;
+padding-bottom: 2rem;
+border: 2px red;
+margin-right: 85%;
+margin-left: 3%;
+margin-top: -75%;
+background-color: #EFFCA4;
+
+
+}
+
+.margin-5{
+margin-top:6%;
+}
+
+#transaciones{
+	width: 300px;
+	height: auto;
+margin-left: 20px;
+margin-top: 15%;
+text-align: center;
+background-color: #EEEEEE ;
+transform: rotate(15deg);
+}
+
+#targeta{
+border: 3px green solid; border-radius: 60px;
+margin-right: 80%;
+margin-left: 3%;
+margin-top: 8%;
+text-align: center;
+background-color: #EEEEEE;
+transform: rotate(25deg);
+}
+body{
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	background-image: url(../images/fondo.jpg);	
+	opacity: 60;
+}
